@@ -9,7 +9,7 @@ import CML_MAPping.Map;
  * */
 public class DoubleCMLDemo {
 	public static double Mapping(double x) {
-		return 1 - 4 * x * x;
+		return 4*x - 4 * x * x;
 	}
 
 	public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class DoubleCMLDemo {
 		mapping_result[0][0] = 0.1;
 		mapping_result[1][0] = 0.2;
 		mapping_result[2][0] = 0.3;
-		mapping_result[mapping_result.length-1][0] = 0.1;
+		//mapping_result[mapping_result.length-1][0] = 0.1;
 //System.out.println(mapping_result.length-1);
 	//	int index = 0;
 		for (int col = 0; col < n; col++) {
